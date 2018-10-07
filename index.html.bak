@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>
+            Home
+        </title>
+        <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all"
+        />
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="js/jquery.min.js">
+        </script>
+        <!-- Custom Theme files -->
+        <!--theme-style-->
+        <link href="css/style.css" rel="stylesheet" type="text/css" media="all"
+        />
+        <!--//theme-style-->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="keywords" content="Mobile App Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
+        Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design"
+        />
+        <script type="application/x-javascript">
+            addEventListener("load",
+            function() {
+                setTimeout(hideURLbar, 0);
+            },
+            false);
+            function hideURLbar() {
+                window.scrollTo(0, 1);
+            }
+        </script>
+        <!--fonts-->
+        <!--<link href='http://fonts.useso.com/css?family=Roboto:400,300,100,500,700,900'
+        rel='stylesheet' type='text/css'>   -->
+        <script type="text/javascript" src="js/move-top.js">
+        </script>
+        <script type="text/javascript" src="js/easing.js">
+        </script>
+        <!-- slide -->
+    </head>
+    
+    <body>
+        <!--header-->
+        <div class="header">
+            <div class="container">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="images/logo.png" alt="">
+                    </a>
+                </div>
+                <div class="top-nav">
+                    <span class="menu">
+                        <img src="images/menu.png" alt="">
+                    </span>
+                    <ul>
+                        <li class="active">
+                            <a href="index.html">
+                                Home
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/blog/en/M001A/" target="view_window">
+                                Bio-Sensor
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/blog/en/M001A-KITS/" target="view_window">
+                                Evaluation
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/feelkit/BIO_SENSOR" target="view_window">
+                                OpenProject
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/blog" target="view_window">
+                                Blog
+                            </a>
+                        </li>
+                    </ul>
+                    <!--script-->
+                    <script>
+                        $("span.menu").click(function() {
+                            $(".top-nav ul").slideToggle(500,
+                            function() {});
+                        });
+                    </script>
+                </div>
+                <div class="clearfix">
+                </div>
+            </div>
+        </div>
+        <!---->
+        <div class="banner">
+            <div class="container">
+                <!-- <div class="col-md-6 banner-matter">      -->
+                <!-- requried-jsfiles-for owl -->
+                <link href="css/owl.carousel.css" rel="stylesheet">
+                <script src="js/owl.carousel.js">
+                </script>
+                <script>
+                    $(document).ready(function() {
+                        $("#owl-demo1").owlCarousel({
+                            items: 1,
+                            lazyLoad: true,
+                            autoPlay: true,
+                            navigation: true,
+                            navigationText: true,
+                            pagination: false,
+                        });
+                    });
+                </script>
+                <!-- //requried-jsfiles-for owl -->
+                <!-- start content_slider -->
+                <div id="owl-demo1" class="owl-carousel">
+                    <div class="item-right">
+                        <div class="col-md-7 banner-matter">
+                            <h1>
+                                BioSensor: M001A
+                            </h1>
+                            <span>
+                                A biophysical module in healthcare
+                            </span>
+                            <p>
+                                The Bio-module measures and transfers various types of bio-data including
+                                ECG, RESP, GSR, HR, PPG, HCM and BIA etc, integrated Bio-Processor with
+                                Analog Front-End to make an all-in-one health monitoring solution.
+                                <br />
+                                <br />
+                                The algorithm core runs in Bio-Processor,including SPO2,motion recognition,dynamic
+                                heart rate monitoring, trend analysis of blood pressure, Emotional and
+                                mental stress etc.
+                            </p>
+                            <a href="/blog/en/M001A/" target="view_window">
+                                <i>
+                                </i>
+                                Read more
+                            </a>
+                        </div>
+                        <img class="img-responsive" src="images/m001a_www2.png" alt="">
+                    </div>
+                    <div class="item-right">
+                        <div class="col-md-7 banner-matter">
+                            <h1>
+                                Development Kits
+                            </h1>
+                            <span>
+                                Evaluation board for Bio-Moudule: M001A
+                            </span>
+                            <p>
+                                A completed Bio-sensor project including software and hardware solutions,
+                                to make an all-in-one,including ECG, RESP, GSR ,HR, PPG, HCM, SPO2, BIA
+                                and Motion etc.
+                                <br />
+                                <br />
+                                To provide system solutions and Turnkey projects, reducing customer development
+                                time and making an ideal option for health-monitoring, wearable devices.
+                            </p>
+                            <a href="#">
+                                <i>
+                                </i>
+                                Read more
+                            </a>
+                        </div>
+                        <img class="img-responsive" src="images/demo_www3.png" alt="">
+                    </div>
+                    <!-- </div>     -->
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="container">
+                <div class="content-top">
+                    <div class="col-md-4 grid">
+                        <h3>
+                            <i>
+                            </i>
+                            Firmware
+                        </h3>
+                        <p>
+                            Official development framework for Bio-sensor.Through a simple example,
+                            we would like to illustrate how to use the Bio-module.
+                        </p>
+                        <a href="https://github.com/feelkit/bioModule_NRF52_BLE" target="view_window"
+                        class="just-do-in">
+                            Details
+                        </a>
+                    </div>
+                    <div class="col-md-4 grid">
+                        <h3>
+                            <i class="mid">
+                            </i>
+                            APP & Tool
+                        </h3>
+                        <p>
+                            Evaluation tool for Bio-sensor,support Microsoft Windows, based on LabWindows
+                            CVI 2017. APK for Android are being developed.
+                        </p>
+                        <a href="https://github.com/feelkit/bioDemo_labwindows_cvi" target="view_window"
+                        class="just-do-in">
+                            Details
+                        </a>
+                    </div>
+                    <div class="col-md-4 grid">
+                        <h3>
+                            <i class="just">
+                            </i>
+                            Hardware
+                        </h3>
+                        <p>
+                            Bio-sensor reference design, Schematic, PCB, document; Compatible with
+                            common open-source hardware family.
+                        </p>
+                        <a href="https://github.com/feelkit/BIO_SENSOR" target="view_window" class="just-do-in">
+                            Details
+                        </a>
+                    </div>
+                    <div class="clearfix">
+                    </div>
+                </div>
+                <div class="content-grid">
+                    <h2>
+                        IS IT TURE? EASILY DEVELOP HEALTHCARE APPLICATION !
+                    </h2>
+                    <p>
+                        FeelKit is an open-source electronics platform based on easy-to-use hardware
+                        and software in healthcare.The evaluation board for Bio-Moudule is the
+                        best board to get started with electronics and coding; If this is your
+                        first experience tinkering with the platform, it is the most robust board
+                        you can start playing with, also the most used and documented board of
+                        the whole healthcare family.
+                    </p>
+                </div>
+            </div>
+            <div class="content-bottom">
+                <div class="container">
+                    <h3>
+                        evaluate bio-sensor,ready?
+                    </h3>
+                    <p>
+                        Samples and evaluation boards are being supplied.
+                    </p>
+                </div>
+                <i>
+                </i>
+            </div>
+        </div>
+        <!---->
+        <div class="footer">
+            <div class="container">
+                <div class="footer-top">
+                    <div class="col-md-7 footer-left">
+                        <p>
+                            Do you want to buy bio-sensor or evaluation boards?
+                        </p>
+                        <p class="foot">
+                            Services for global users, except for China
+                        </p>
+                    </div>
+                    <div class="col-md-5 submit">
+                        <!-- <form>
+                        <input type="submit" value="Shop now">
+                        <div class="clearfix">
+                        </div>
+                        </form>
+                        -->
+                        <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                            <input type="hidden" name="cmd" value="_s-xclick">
+                            <input type="hidden" name="hosted_button_id" value="2HT5AJ8499ZAA">
+                            <table>
+                                <tr>
+                                    <td>
+                                        <input type="hidden" name="on0" value="Bio-sensor: M001A or evaluation board">
+                                       <font size="3" color="white">Bio-sensor : M001A or evaluation board</font> 
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <select name="os0">
+                                            <option value="Bio-sensor : M001A">
+                                                Bio-sensor: M001A $100.00 USD
+                                            </option>
+                                            <option value="Evaluation board for M001A">
+                                                Evaluation board for M001A $680.00 USD
+                                            </option>
+                                        </select>
+                                    </td>
+                                </tr>
+                            </table>
+                            <input type="hidden" name="currency_code" value="USD">
+                            <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif"
+                            border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                            <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif"
+                            width="1" height="1">
+                        </form>
+                    </div>
+                    <div class="clearfix">
+                    </div>
+                </div>
+                <div class="footer-top">
+                    <div class="col-md-7 footer-left">
+                        <p class="foot">
+                            购买传感器模组样品或评估板，在中国区域请移步官方淘宝店
+                        </p>
+                    </div>
+                    <div class="col-md-5 submit">
+                        <img class="img-responsive" src="images/feelkit_tb.png" alt="">
+                        <form action="https://shop69263171.taobao.com/">
+                            <input type="submit" value="淘宝">
+                            <div class="clearfix">
+                            </div>
+                        </form>
+                    </div>
+                    <div class="clearfix">
+                    </div>
+                </div>
+                <p class="footer-class">
+                    Copyright &copy; 2018. FeelKit All rights reserved.
+                </p>
+            </div>
+            <script type="text/javascript">
+                $(document).ready(function() {
+                    /*
+							var defaults = {
+					  			containerID: 'toTop', // fading element id
+								containerHoverID: 'toTopHover', // fading element hover id
+								scrollSpeed: 1200,
+								easingType: 'linear' 
+					 		};
+							*/
+
+                    $().UItoTop({
+                        easingType: 'easeOutQuart'
+                    });
+
+                });
+            </script>
+            <a href="#" id="toTop" style="display: block;">
+                <span id="toTopHover" style="opacity: 1;">
+                </span>
+            </a>
+        </div>
+    </body>
+
+</html>
